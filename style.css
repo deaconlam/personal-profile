@@ -1,0 +1,224 @@
+body {
+    margin: 0px;
+    font-family: "San Francisco";
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+img {
+    user-select: none;
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "San Francisco Mono";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFMono/TrueType/SFMono-Medium.ttf");
+}
+
+#title {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+a {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(90, 90, 90);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#horizontal-menu {
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+#title-bar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    width: 100%;
+}
+
+#footer {
+    height: 300px;
+    background-color: rgb(245, 245, 247);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact-menu {
+    font-size: 24px;
+    padding-top: 25px;
+}
+
+.contact-us-icon {
+    padding-left: 2px;
+    margin-bottom: 20px;
+}
+
+.contact-us-icon:hover {
+    cursor: pointer;
+}
+
+#footer-title {
+    color: rgb(162, 162, 162);
+    font-size: 16px;
+}
+
+#tab-title {
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 36px;
+}
+
+hr {
+    margin-left: 50px;
+    width: 900px;
+}
+
+#volunteer-experience-4 {
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://vcbc.ca/wp-content/uploads/2025/02/DSCF7319-scaled.jpg");
+    width: 850px;
+    height: 450px;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#volunteer-experience-3 {
+    margin-top: 25px;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://richmondcherryblossomfest.ca/wp-content/uploads/2023/03/rcb2023.jpg");
+    width: 850px;
+    height: 450px;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#volunteer-experience-2 {
+    margin-top: 25px;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://www.richmond.ca/__shared/assets/HB-PR-Thompson66468.jpg");
+    width: 850px;
+    height: 450px;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#volunteer-experience-1 {
+    margin-top: 25px;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("https://pancouver.ca/wp-content/uploads/2023/11/Showcase_-Rise-Up-14-1024x684.jpg");
+    width: 850px;
+    height: 475px;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+#volunteer-experience-content-title {
+    font-size: 48px;
+}
+
+#volunteer-experience-content-description {
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+#about-me {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 900px;
+}
+
+#about-me-picture {
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 25px;
+    height: 400px;
+}
+
+#skills-and-interests {
+    width: 900px;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#skills-and-interests-1 {
+    border-radius: 25px;
+}
+
+#home {
+    background-image: url("assets/home-picture.jpeg");
+    background-size: cover;
+    height: 700px;
+    padding-top: 300px;
+    margin-bottom: -50px;
+}
+
+#home-title {
+    font-family: "San Francisco Mono";
+    margin: 0;
+    padding-left: 50px;
+    font-size: 120px;
+    color: white;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    display: inline-block;
+    animation: typing 4s steps(24, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to   { width: 24ch; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50%      { border-color: white; }
+}
+
+#home-description {
+    font-family: "San Francisco Mono";
+    padding-left: 50px;
+    font-size: 60px;
+    color: white;
+}
+
+#home-description:hover {
+    cursor: pointer;
+}
