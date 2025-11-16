@@ -192,7 +192,7 @@ hr {
     font-family: "San Francisco Mono";
     margin: 0;
     padding-left: 50px;
-    font-size: 120px;
+    font-size: 90px;
     color: white;
     width: 0;
     overflow: hidden;
@@ -215,7 +215,7 @@ hr {
 #home-description {
     font-family: "San Francisco Mono";
     padding-left: 50px;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
 }
 
